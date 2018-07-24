@@ -1,0 +1,45 @@
+﻿{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "virtualMachineName": {
+      "value": "TestWinEphmVM"
+    },
+    "virtualMachineSize": {
+      "value": "Standard_DS1_v2"
+    },
+    "adminUsername": {
+      "value": "tdprUser"
+    },
+    "virtualNetworkName": {
+      "value": "WinEphemeralRG-vnet"
+    },
+    "networkInterfaceName": {
+      "value": "win2-vm757"
+    },
+    "networkSecurityGroupName": {
+      "value": "win2-vm-nsg"
+    },
+    "adminPassword": {
+      "value": "EphmBoot@12#"
+    },
+    "addressPrefix": {
+      "value": "10.1.7.0/24"
+    },
+    "subnetName": {
+      "value": "default"
+    },
+    "subnetPrefix": {
+      "value": "10.1.7.0/24"
+    },
+    "publicIpAddressName": {
+      "value": "win2-vm-ip"
+    },
+    "publicIpAddressType": {
+      "value": "Dynamic"
+    },
+    "publicIpAddressSku": {
+      "value": "Basic"
+    }
+  }
+}

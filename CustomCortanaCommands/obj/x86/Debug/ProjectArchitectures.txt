@@ -1,0 +1,1 @@
+C:\Users\archop\Downloads\custom-cortana-commands-template-master\custom-cortana-commands-template-master\CustomCortanaCommands\CustomCortanaCommands.csproj;x86
